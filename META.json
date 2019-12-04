@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Check if keys exist in the cache",
    "author" : [
       "Adam Hopkins <srchulo@cpan.org>"
    ],
@@ -37,17 +37,34 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Mojolicious" : "7.40",
+            "Role::Tiny" : "2.000001",
+            "perl" : "5.010001"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.96"
+            "Test::More" : "0.96",
+            "Test::Pod" : "0"
          }
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/srchulo/Mojo-Cache-Role-Exists/issues"
+      },
+      "homepage" : "https://github.com/srchulo/Mojo-Cache-Role-Exists",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/srchulo/Mojo-Cache-Role-Exists.git",
+         "web" : "https://github.com/srchulo/Mojo-Cache-Role-Exists"
+      }
+   },
    "version" : "0.01",
+   "x_contributors" : [
+      "Adam Hopkins <violapiratejunky@gmail.com>"
+   ],
    "x_generated_by_perl" : "v5.30.0",
    "x_serialization_backend" : "Cpanel::JSON::XS version 4.13",
    "x_static_install" : 1

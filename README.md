@@ -1,14 +1,34 @@
 # NAME
 
-Mojo::Cache::Role::Exists - Blah blah blah
+Mojo::Cache::Role::Exists - Check if keys exist in the cache
+
+# STATUS
+
+<div>
+    <a href="https://travis-ci.org/srchulo/Mojo-Cache-Role-Exists"><img src="https://travis-ci.org/srchulo/Mojo-Cache-Role-Exists.svg?branch=master"></a>
+</div>
 
 # SYNOPSIS
 
-    use Mojo::Cache::Role::Exists;
+    my $cache = Mojo::Cache->new->with_roles('+Exists');
+    if ($cache->exists('key')) {
+      ...
+    }
 
 # DESCRIPTION
 
-Mojo::Cache::Role::Exists is
+[Mojo::Cache::Role::Exists](https://metacpan.org/pod/Mojo::Cache::Role::Exists) allows you to check if keys exist in the cache via the ["exists"](#exists) method.
+Keys may not exist because they were never set or because they have been evicted from the cache.
+
+# METHODS
+
+## exists
+
+    if ($strict_cache->exists('key')) {
+      ...
+    }
+
+Returns `true` if a cached value exists for the provided key, `false` otherwise.
 
 # AUTHOR
 
