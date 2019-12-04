@@ -35,7 +35,7 @@ Keys may not exist because they were never L<Mojo::Cache/"set"> or because they 
 
 =head2 exists
 
-  if ($strict_cache->exists('key')) {
+  if ($cache->exists('key')) {
     ...
   }
 
