@@ -56,4 +56,20 @@ it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
+=over 4
+
+=item *
+
+L<Mojolicious>
+
+=item *
+
+L<Mojo::Cache>
+
+=item *
+
+L<Mojo::Cache::Role::Strict>
+
+=back
+
 =cut

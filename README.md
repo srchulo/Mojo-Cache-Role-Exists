@@ -44,3 +44,7 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 # SEE ALSO
+
+- [Mojolicious](https://metacpan.org/pod/Mojolicious)
+- [Mojo::Cache](https://metacpan.org/pod/Mojo::Cache)
+- [Mojo::Cache::Role::Strict](https://metacpan.org/pod/Mojo::Cache::Role::Strict)
