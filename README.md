@@ -24,7 +24,7 @@ Keys may not exist because they were never ["set" in Mojo::Cache](https://metacp
 
 ## exists
 
-    if ($strict_cache->exists('key')) {
+    if ($cache->exists('key')) {
       ...
     }
 
