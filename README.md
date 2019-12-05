@@ -18,7 +18,7 @@ Mojo::Cache::Role::Exists - Check if keys exist in the cache
 # DESCRIPTION
 
 [Mojo::Cache::Role::Exists](https://metacpan.org/pod/Mojo::Cache::Role::Exists) allows you to check if keys exist in the cache via the ["exists"](#exists) method.
-Keys may not exist because they were never ["set" in Mojo::Cache](https://metacpan.org/pod/Mojo::Cache#set) or because they have been evicted from the cache.
+Keys may not exist because they were never ["set" in Mojo::Cache](https://metacpan.org/pod/Mojo::Cache#set), or because they have been evicted from the cache.
 
 # METHODS
 

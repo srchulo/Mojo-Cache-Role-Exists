@@ -29,7 +29,7 @@ Mojo::Cache::Role::Exists - Check if keys exist in the cache
 =head1 DESCRIPTION
 
 L<Mojo::Cache::Role::Exists> allows you to check if keys exist in the cache via the L</exists> method.
-Keys may not exist because they were never L<Mojo::Cache/"set"> or because they have been evicted from the cache.
+Keys may not exist because they were never L<Mojo::Cache/"set">, or because they have been evicted from the cache.
 
 =head1 METHODS
 
